@@ -8,9 +8,9 @@ import React from "react";
 export default function() {
   const [chains, setChains] = React.useState<Chain[]>([
     {
-      name: "Nova Network",
+      name: "MIND testnet",
       network: "Mainnet",
-      rpc: ["https://connect.novanetwork.io/"],
+      rpc: ["https://testnet-msc.mindchain.info/"],
     },
     {
       name: "Nebula Testnet",
