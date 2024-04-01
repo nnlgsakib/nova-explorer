@@ -8,9 +8,9 @@ import React from "react";
 export default function() {
   const [chains, setChains] = React.useState<Chain[]>([
     {
-      name: "MIND testnet",
+      name: "INF",
       network: "Mainnet",
-      rpc: ["https://testnet-msc.mindchain.info/"],
+      rpc: ["http://65.108.239.39:8545/"],
     },
     {
       name: "Nebula Testnet",
